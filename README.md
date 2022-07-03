@@ -2,12 +2,16 @@ Creative Commons Non Commercial 3.0 License
 Icon images from iconmonstr.com see website for license terms
 Some additional icons from metroicon.net courtesy of Piers
 
+# Korean updates for skin.arctic.zephyr.mod
+
+This is personal toy project and all changes are dependent on `beatmasterRS/skin.arctic.zephyr.mod`.
+
 ## 한글 설치 (Kodi settings for Korean language)
 
 ### 한글 설정
 1. Settings -> Settings의 설정을 Basic 이나 Standard 에서 Expert로 바꿈.
 2. Settings -> Add-on -> Zip Install -> 스킨 Zip 파일 선택.
-3. Settings -> Interfaces -> Skin -> 스킨 선택.
+3. Settings -> Interfaces -> Skin -> Arctic: Zephyr - Reloaded 스킨 선택.
 4. Settings -> Interfaces -> Skin -> Fonts -> Noto Sans-KR 선택
 5. Settings -> Interfaces -> Regional -> Language -> Korean 선택
 
