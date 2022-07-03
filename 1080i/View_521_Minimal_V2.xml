@@ -108,7 +108,7 @@
             <width>NetflixPlotWidth</width>
             <control type="label">
                 <textcolor>Dark1</textcolor>
-                <font>SmallBold</font>
+                <font>ListItemTitle</font>
                 <label fallback="19055">$INFO[ListItem.Title]</label>
                 <include condition="Skin.HasSetting(labels.autoscroll)">LabelScroll</include>
                 <visible>!Skin.HasSetting(view.netflix.clearlogo) | [Skin.HasSetting(view.netflix.clearlogo) + !$EXP[TitleClearlogoAvailable]]</visible>
@@ -120,21 +120,21 @@
                 <top>40</top>
                 <control type="label">
                     <aligny>center</aligny>
-                    <font>Tiny</font>
-                    <textcolor>Dark1</textcolor>
-                    <selectedcolor>Dark1</selectedcolor>
+                    <font>TinyInfo</font>
+                    <textcolor>Black70</textcolor>
+                    <selectedcolor>Black70</selectedcolor>
                     <label>$VAR[LabelSub_1_GenreAlbum]</label>
                 </control>
                 <control type="textbox">
                     <font>Tiny</font>
                     <height min="36" max="176">auto</height>
-                    <textcolor>Dark2</textcolor>
-                    <selectedcolor>Dark2</selectedcolor>
+                    <textcolor>Dark1</textcolor>
+                    <selectedcolor>Dark1</selectedcolor>
                     <label>$INFO[ListItem.Plot]</label>
                 </control>
                 <control type="label">
                     <aligny>center</aligny>
-                    <font>Tiny</font>
+                    <font>TinyInfo</font>
                     <textcolor>Dark2</textcolor>
                     <selectedcolor>Dark2</selectedcolor>
                     <label>$VAR[LabelSub_2_YearDurationRating]</label>

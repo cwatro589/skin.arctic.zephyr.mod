@@ -68,7 +68,7 @@
                 <top>230</top>
                 <control type="label">
                     <textcolor>Dark1</textcolor>
-                    <font>SmallBold</font>
+                    <font>ListItemTitle</font>
                     <label fallback="19055">$INFO[ListItem.Title]</label>
                     <include condition="Skin.HasSetting(labels.autoscroll)">LabelScroll</include>
                 </control>
@@ -78,9 +78,9 @@
                     <top>40</top>
                     <control type="label">
                         <aligny>center</aligny>
-                        <font>Tiny</font>
-                        <textcolor>Dark1</textcolor>
-                        <selectedcolor>Dark1</selectedcolor>
+                        <font>TinyInfo</font>
+                        <textcolor>Black70</textcolor>
+                        <selectedcolor>Black70</selectedcolor>
                         <label>$VAR[LabelSub_1_GenreAlbum]</label>
                     </control>
                     <control type="textbox">
@@ -92,7 +92,7 @@
                     </control>
                     <control type="label">
                         <aligny>center</aligny>
-                        <font>Tiny</font>
+                        <font>TinyInfo</font>
                         <textcolor>Dark2</textcolor>
                         <selectedcolor>Dark2</selectedcolor>
                         <label>$VAR[LabelSub_2_YearDurationRating]</label>
