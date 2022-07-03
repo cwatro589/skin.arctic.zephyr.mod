@@ -3365,8 +3365,8 @@
                 </control>
             </control>
             <control type="label">
-                <centertop>24</centertop>
-                <right>135</right>
+                <centertop>23</centertop>
+                <right>155</right>
                 <align>right</align>
                 <font>LargeBold</font>
                 <textcolor>$VAR[ColorHighlight]</textcolor>
@@ -3375,7 +3375,7 @@
                 <animation effect="slide" start="0" end="-15" time="0" condition="String.Contains(Skin.Font,Arial) + !String.IsEmpty(System.Time(xx))">Conditional</animation>
             </control>
             <control type="label">
-                <centertop>30</centertop>
+                <centertop>25</centertop>
                 <right>SidePad</right>
                 <font>SmallBold</font>
                 <textcolor>Dark3</textcolor>
@@ -3387,18 +3387,18 @@
 
             <!-- $INFO[Window(Home).Property(SkinHelperPING.server1)] -->
             <control type="label">
-                <centertop>64</centertop>
+                <centertop>66</centertop>
                 <right>SidePad</right>
-                <font>Flag</font>
+                <font>Tiny</font>
                 <textcolor>Dark2</textcolor>
                 <align>right</align>
                 <width>50%</width>
                 <label>$INFO[System.Date]</label>
             </control>
             <control type="label">
-                <centertop>92</centertop>
+                <centertop>94</centertop>
                 <right>SidePad</right>
-                <font>Flag</font>
+                <font>Tiny</font>
                 <textcolor>Dark3</textcolor>
                 <align>right</align>
                 <width>50%</width>
